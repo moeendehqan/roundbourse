@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Vazir-Fdw';
+    src: url('../../public/Vazir/Farsi-Digits-Without-Latin/Vazir-FD-WOL.ttf') format('truetype');
+    src: url('../../public/Vazir/Farsi-Digits-Without-Latin/Vazir-FD-WOL.woff2') format('woff2');
+    src: url('../../public/Vazir/Farsi-Digits-Without-Latin/Vazir-FD-WOL.woff') format('woff') ;
+}
+@font-face {
+    font-family: 'Vazir-Fdw-bold';
+    src: url('../../public/Vazir/Farsi-Digits-Without-Latin/Vazir-Bold-FD-WOL.ttf') format('truetype');
+    src: url('../../public/Vazir/Farsi-Digits-Without-Latin/Vazir-Bold-FD-WOL.woff2') format('woff2');
+    src: url('../../public/Vazir/Farsi-Digits-Without-Latin/Vazir-Bold-FD-WOL.woff2') format('woff') ;
+}
+
+@font-face {
+    font-family: 'Vazir-Fdw-black';
+    src: url('../../public/Vazir/Farsi-Digits-Without-Latin/Vazir-Black-FD-WOL.ttf') format('truetype');
+    src: url('../../public/Vazir/Farsi-Digits-Without-Latin/Vazir-Black-FD-WOL.woff2') format('woff2');
+    src: url('../../public/Vazir/Farsi-Digits-Without-Latin/Vazir-Black-FD-WOL.woff') format('woff') ;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html,body,#root{
+    height: 100%;
+}
+
+$primary-100:#1e222b;
+$primary-200:#454954;
+$primary-300:#9fa4af;
+$accent-100:#caa138;
+$accent-200:#644800;
+$text-100:#333333;
+$text-200:#5c5c5c;
+$bg-100:#F5F5F5;
+$bg-200:#ebebeb;
+$bg-300:#c2c2c2;
+  
+
+
+.Home{
+    background: $bg-300;
+}
